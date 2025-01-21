@@ -11,7 +11,14 @@ This test example is built with Python, dlt, dbt, and duckdb.
 You should only need to install `duckdb` outside of pip. You can do so from [here](https://duckdb.org/docs/installation/?version=stable&environment=cli&platform=macos&download_method=package_manager)
 
 1. Clone the Repo
-2. Install the dependencies in the `requirements.txt` file
+2. Install the dependencies `pip install -r requirements.txt`
+3. Confirm you can run the baseline of the project
+
+```bash
+$ python space_x_data.py
+$ cd dbt
+$ dbt build
+```
 
 ## Instructions & Deliverable
 
