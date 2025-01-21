@@ -13,9 +13,9 @@ You should only need to install `duckdb` outside of pip. You can do so from [her
 1. Clone the Repo
 2. Install the dependencies in the `requirements.txt` file
 
-## Instructions
+## Instructions & Deliverable
 
-Your goal is to add functionality to the existing code that meets the following criteria
+Your goal is to add functionality to the existing code that meets the following criteria. The final deliverable should be a merge request against the main branch of this repo OR a zip file with instructions about how to run it. 
 
 ### Data Ingestion & Storage
 - It should ingest data about [SpaceX Rocket Launches & Launch Locations](https://github.com/r-spacex/SpaceX-API/blob/master/docs/launches/v4/all.md) into DuckDB. It should also include geo data about where the rocket launch took place. 
@@ -25,6 +25,7 @@ Your goal is to add functionality to the existing code that meets the following 
 You've been tasked with building a data model(s) that help answer a few key questions from the data we've ingested above. You should modify the existing dbt project to complete this task. 
 
 How many successful SpaceX launches have their been? How many of those launches had an earthquake of > 5 magnitude occur within 30 days and 100 miles of them? 
+
 
 
 
