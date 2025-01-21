@@ -31,7 +31,7 @@ Your goal is to add functionality to the existing code that meets the following 
 ### Data Modeling
 You've been tasked with building a data model(s) that help answer a few key questions from the data we've ingested above. You should modify the existing dbt project to complete this task. 
 
-How many successful SpaceX launches have their been? How many of those launches had an earthquake of > 5 magnitude occur within 30 days and 100 miles of them? 
+How many successful SpaceX launches have their been? How many of those launches had an earthquake of > 5 magnitude occur within 30 days and 2500 miles of them? 
 
 
 
