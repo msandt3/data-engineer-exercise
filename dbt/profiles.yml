@@ -1,0 +1,12 @@
+transform:
+  outputs:
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      attach:
+        - path: ../data.duckdb
+      extensions:
+        - spatial
+      threads: 1
+
+  target: dev

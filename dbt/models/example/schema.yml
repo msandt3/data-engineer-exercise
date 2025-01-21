@@ -1,0 +1,19 @@
+
+version: 2
+
+sources:
+  - name: space_x_data
+    database: data
+    schema: space_x_data
+    tables:
+      - name: launchpads
+      - name: launches
+
+models:
+  - name: stg_spacex_launches
+    description: "SpaceX Launches"
+    columnds:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
