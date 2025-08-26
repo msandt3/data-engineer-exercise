@@ -1,4 +1,4 @@
-# Relay Payments - Data Engineer Exercise
+# Data Engineer Exercise
 
 
 ## Objective
